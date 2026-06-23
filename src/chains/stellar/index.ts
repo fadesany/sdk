@@ -24,6 +24,8 @@ export {
 export { bytesToHex, hexToBytes } from './utils';
 export { fetchAnnouncements } from './announcements';
 export { DEPLOYMENTS, getDeployment } from './deployments';
+export { StellarBatchBuilder, encodeAnnouncementData, decodeAnnouncementData } from './batch';
+export type { StealthPaymentConfig, BatchConfig, BuildResult } from './batch';
 export type { StellarChainDeployment } from './deployments';
 export type {
   HexString,
